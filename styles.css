@@ -116,3 +116,21 @@ a:hover {
         gap: 0.25rem;
     }
 }
+
+footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+}
+
+.footer-badge {
+    width: 60px;
+    height: auto;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.footer-badge:hover {
+    opacity: 1;
+}
